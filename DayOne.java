@@ -15,10 +15,10 @@ public class DayOne {
         // datatype [] variable-name = new datatype [size];
 
         int [] rolls; // declaration in the stack // at compile-time
-        rolls = new int[4]; // initialization in the stack // at the run-time
+        rolls = new int[4]; // initialization in the heap // at the run-time
         // stored in heap memory as: [0,0,0,0]
 
-        // methods of appending the values of arrays
+        // methods of inserting the values of arrays
         //1
 //        rolls[0] = 11;
 //        rolls[1] = 51;
